@@ -35,3 +35,22 @@ Jumlah Prosi = 3
 Harga = 7000
 Total Bayar = Rp. 66000
 '''
+
+makanan = input('Mau makan apa = ')
+JumMakanan = int(input('Mau berapa Porsi = '))
+hargaMkanan = int(input('Harga makanan = Rp. '))
+minuman = input('Mau Minum Apa = ')
+jumMinuman = int(input('Mau pesan minum berapa = '))
+hargaMinuman = int(input('Harga Minuman = Rp. '))
+
+totalBayar = (JumMakanan * hargaMkanan) + (jumMinuman * hargaMinuman)
+
+print('==== Struk Pembayaran ====')
+print('Makanan = ',makanan)
+print('Jumlah Porsi = ',JumMakanan)
+print('Harga Makanan = Rp. ',hargaMkanan)
+print('Minuman = ',minuman)
+print('Jumlah Minuman = ',jumMinuman)
+print('Harga Minuman = Rp. ',hargaMinuman)
+print('Total Bayar = Rp. ',totalBayar)
+
