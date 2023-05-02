@@ -15,7 +15,7 @@ JawabUlang = 'y'
 namaMhs = []
 namaMK = []
 nilaiMk = []
-keterangan = ''
+ket = []
 
 while(True):
     nama = input('Nama Mahasiswa = ')
