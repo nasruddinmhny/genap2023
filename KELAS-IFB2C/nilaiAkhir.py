@@ -45,6 +45,6 @@ def inputData():
     print(' Nilai huruf = ',nilaiHuruf)
     print('Keterangan = ',keterangan)
 
-
+#pemanggilan file input data agar bisa di run
 inputData()
 
