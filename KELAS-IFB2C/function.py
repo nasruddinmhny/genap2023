@@ -23,6 +23,4 @@ def InputNilai():
     print('Haisl tambah ',nA,' + ',nB,' = ',hasil)
 
 
-
-
 InputNilai()
